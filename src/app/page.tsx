@@ -7,6 +7,7 @@ import { ProjectCard } from "@/components/ui/project-card"
 import { SkillBadge } from "@/components/ui/skill-badge"
 import { Terminal } from "@/components//ui/terminal"
 import Projects from "@/components/projects"
+import { SkillsList } from "@/components/ui/skills"
 
 export default function Home() {
   return (
@@ -86,52 +87,14 @@ export default function Home() {
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">About Me</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Veteran | Computer Science Student | Aspiring Developer</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I'm a computer scientist with a passion for solving complex problems through elegant code. With a
-                  Ph.D. in Computer Science from Stanford University, I specialize in distributed systems, machine
-                  learning algorithms, and computational complexity theory.
+                  I'm a third year Computer Science student with a passion for learning, problem solving, and working with technology.
+                  Currently, I'm building my skills in modern front-end frameworks like React and Next.js. I’m looking to explore 
+                  different areas of the tech industry to find where my interests and strengths align best.
                 </p>
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-              <div className="flex flex-col justify-center space-y-4">
-                <ul className="grid gap-6">
-                  <li className="flex items-start gap-4">
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-                      <Code className="h-5 w-5" />
-                    </div>
-                    <div className="space-y-1">
-                      <h3 className="font-semibold">Software Engineering</h3>
-                      <p className="text-sm text-muted-foreground">
-                        Developing scalable, maintainable software solutions with a focus on performance and user
-                        experience.
-                      </p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-4">
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-                      <Database className="h-5 w-5" />
-                    </div>
-                    <div className="space-y-1">
-                      <h3 className="font-semibold">Data Science & ML</h3>
-                      <p className="text-sm text-muted-foreground">
-                        Applying statistical methods and machine learning algorithms to extract insights from complex
-                        datasets.
-                      </p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-4">
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-                      <Server className="h-5 w-5" />
-                    </div>
-                    <div className="space-y-1">
-                      <h3 className="font-semibold">Distributed Systems</h3>
-                      <p className="text-sm text-muted-foreground">
-                        Designing and implementing fault-tolerant, scalable distributed systems and cloud architectures.
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+               <SkillsList />
               <div className="flex justify-center">
                 <img
                   alt="Profile"
