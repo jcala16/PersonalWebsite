@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { ProjectCard } from "@/components/ui/project-card" 
 import { SkillBadge } from "@/components/ui/skill-badge"
 import { Terminal } from "@/components//ui/terminal"
+import Projects from "@/components/projects"
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Code className="h-5 w-5" />
-            <span className="font-mono font-bold">dev.name</span>
+            <span className="font-mono font-bold">jacob-cala.dev</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="#about" className="text-sm font-medium hover:underline underline-offset-4">
@@ -35,13 +36,13 @@ export default function Home() {
           </nav>
           <div className="flex items-center gap-2">
             <Button variant="outline" size="icon" asChild>
-              <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/jcala16" target="_blank" rel="noopener noreferrer">
                 <Github className="h-4 w-4" />
                 <span className="sr-only">GitHub</span>
               </Link>
             </Button>
             <Button variant="outline" size="icon" asChild>
-              <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://linkedin.com/in/jacob-cala-583a27249" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-4 w-4" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
@@ -57,11 +58,11 @@ export default function Home() {
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                     <span className="text-primary">Hello World!</span> I'm{" "}
-                    <span className="text-primary">John Doe</span>
+                    <span className="text-primary">Jake Cala</span>
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    Computer Scientist & Software Engineer specializing in distributed systems, machine learning, and
-                    algorithm design.
+                    U.S. Marine Corps veteran currently pursuing a Bachelor's degree in Computer Science. 
+                    Passionate about all things computers.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -83,7 +84,7 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">About Me</div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">The Person Behind the Code</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Veteran | Computer Science Student | Aspiring Developer</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I'm a computer scientist with a passion for solving complex problems through elegant code. With a
                   Ph.D. in Computer Science from Stanford University, I specialize in distributed systems, machine
@@ -155,49 +156,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
-              <ProjectCard
-                title="Distributed ML Framework"
-                description="A scalable framework for training machine learning models across distributed systems."
-                tags={["Python", "TensorFlow", "Kubernetes"]}
-                image="/placeholder.svg?height=200&width=300"
-                link="#"
-              />
-              <ProjectCard
-                title="Quantum Algorithm Simulator"
-                description="Simulation environment for testing and visualizing quantum computing algorithms."
-                tags={["C++", "CUDA", "Quantum Computing"]}
-                image="/placeholder.svg?height=200&width=300"
-                link="#"
-              />
-              <ProjectCard
-                title="Graph-based Recommendation Engine"
-                description="Novel recommendation system using graph theory and collaborative filtering."
-                tags={["Java", "Neo4j", "Machine Learning"]}
-                image="/placeholder.svg?height=200&width=300"
-                link="#"
-              />
-              <ProjectCard
-                title="Secure Blockchain Protocol"
-                description="Research implementation of a novel consensus protocol for blockchain networks."
-                tags={["Rust", "Cryptography", "Blockchain"]}
-                image="/placeholder.svg?height=200&width=300"
-                link="#"
-              />
-              <ProjectCard
-                title="Autonomous Drone Navigation"
-                description="Computer vision system for real-time obstacle avoidance in autonomous drones."
-                tags={["Python", "OpenCV", "Robotics"]}
-                image="/placeholder.svg?height=200&width=300"
-                link="#"
-              />
-              <ProjectCard
-                title="Compiler Optimization Techniques"
-                description="Research on advanced compiler optimization techniques for parallel computing."
-                tags={["LLVM", "C++", "Parallel Computing"]}
-                image="/placeholder.svg?height=200&width=300"
-                link="#"
-              />
+            <div className="grid gap-6 [grid-template-columns:repeat(auto-fit,minmax(300px,1fr))]">
+               <Projects />
             </div>
             <div className="flex justify-center">
               <Button variant="outline" asChild>
@@ -452,14 +412,14 @@ export default function Home() {
       </main>
       <footer className="w-full border-t py-6 md:py-0">
         <div className="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row">
-          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} John Doe. All rights reserved.</p>
+          {/* <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Jacob Cala. All rights reserved.</p> */}
           <div className="flex gap-4">
-            <Link href="#" className="text-sm text-muted-foreground hover:underline underline-offset-4">
+            {/* <Link href="#" className="text-sm text-muted-foreground hover:underline underline-offset-4">
               Privacy Policy
             </Link>
             <Link href="#" className="text-sm text-muted-foreground hover:underline underline-offset-4">
               Terms of Service
-            </Link>
+            </Link> */}
           </div>
         </div>
       </footer>
