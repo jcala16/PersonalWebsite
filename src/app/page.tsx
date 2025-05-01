@@ -9,6 +9,8 @@ import { Terminal } from "@/components//ui/terminal"
 import Projects from "@/components/projects"
 import { SkillsList } from "@/components/ui/skills"
 import { ProgrammingLanguages } from "@/components/ui/programming-languages"
+import { FrameworksLibraries } from "@/components/ui/frameworks-libraries"
+import { Tools } from "@/components/ui/tools"
 
 export default function Home() {
   return (
@@ -150,30 +152,12 @@ export default function Home() {
                   <div className="space-y-6">
                       <div className="flex flex-wrap gap-2">
                         <ProgrammingLanguages />
-                      </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-3">Frameworks & Libraries</h3>
+                      </div>                   
                       <div className="flex flex-wrap gap-2">
-                        {/* <SkillBadge name="TensorFlow" level={5} />
-                        <SkillBadge name="PyTorch" level={4} />
-                        <SkillBadge name="React" level={4} />
-                        <SkillBadge name="Node.js" level={4} />
-                        <SkillBadge name="Django" level={3} />
-                        <SkillBadge name="Spring Boot" level={3} />
-                        <SkillBadge name="Next.js" level={4} /> */}
-                      </div>
-                    </div>
+                       <FrameworksLibraries />
+                      </div>                   
                     <div>
-                      <h3 className="text-lg font-semibold mb-3">Tools & Technologies</h3>
-                      <div className="flex flex-wrap gap-2">
-                        {/* <SkillBadge name="Docker" level={5} />
-                        <SkillBadge name="Kubernetes" level={4} />
-                        <SkillBadge name="AWS" level={4} />
-                        <SkillBadge name="Git" level={5} />
-                        <SkillBadge name="Linux" level={5} />
-                        <SkillBadge name="CI/CD" level={4} />
-                        <SkillBadge name="GraphQL" level={3} /> */}
-                      </div>
+                      <Tools />
                     </div>
                   </div>
                 </CardContent>
