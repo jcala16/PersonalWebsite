@@ -22,7 +22,6 @@ export function SkillsList() {
         description:
           "Designing and implementing fault-tolerant, scalable distributed systems and cloud architectures.",
       },
-      
     ];
   
     return (
