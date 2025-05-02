@@ -11,7 +11,7 @@ import { SkillsList } from "@/components/ui/skills"
 import { ProgrammingLanguages } from "@/components/ui/programming-languages"
 import { FrameworksLibraries } from "@/components/ui/frameworks-libraries"
 import { Tools } from "@/components/ui/tools"
-
+import { Experience } from "@/components/ui/experience"
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -179,46 +179,7 @@ export default function Home() {
             </div>
             <div className="mx-auto max-w-5xl py-12">
               <div className="space-y-8">
-                <div className="flex flex-col gap-4 md:flex-row md:items-start">
-                  <div className="md:w-1/3">
-                    <div className="font-semibold">2021 - Present</div>
-                    <div className="text-sm text-muted-foreground">Senior Research Scientist</div>
-                    <div className="text-sm font-medium">Google AI</div>
-                  </div>
-                  <div className="md:w-2/3">
-                    <p className="text-muted-foreground">
-                      Leading research in distributed machine learning systems and algorithm optimization. Developed
-                      novel approaches to training large language models across distributed computing clusters,
-                      resulting in 40% reduction in training time.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex flex-col gap-4 md:flex-row md:items-start">
-                  <div className="md:w-1/3">
-                    <div className="font-semibold">2018 - 2021</div>
-                    <div className="text-sm text-muted-foreground">Software Engineer</div>
-                    <div className="text-sm font-medium">Microsoft Research</div>
-                  </div>
-                  <div className="md:w-2/3">
-                    <p className="text-muted-foreground">
-                      Worked on quantum computing simulation frameworks and distributed systems for large-scale data
-                      processing. Published 5 papers in top-tier conferences and contributed to open-source projects.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex flex-col gap-4 md:flex-row md:items-start">
-                  <div className="md:w-1/3">
-                    <div className="font-semibold">2016 - 2018</div>
-                    <div className="text-sm text-muted-foreground">Research Assistant</div>
-                    <div className="text-sm font-medium">Stanford University</div>
-                  </div>
-                  <div className="md:w-2/3">
-                    <p className="text-muted-foreground">
-                      Conducted research in algorithm design and computational complexity theory. Assisted in teaching
-                      undergraduate computer science courses and mentored junior researchers.
-                    </p>
-                  </div>
-                </div>
+                <Experience />
               </div>
               <div className="mt-12 flex justify-center">
                 <Button variant="outline" asChild>
