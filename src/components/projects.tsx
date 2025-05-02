@@ -3,48 +3,27 @@ import { ProjectCard } from "./ui/project-card";
 
 const projects = [ //add, remove, or edit projects here
     {
-        title:"Distributed ML Framework",
-        description:"A scalable framework for training machine learning models across distributed systems.",
-        tags:["Python","TensorFlow", "Kubernetes"],
-        image:"/placeholder.svg?height=200&width=300",
-        link:"#"
+        title:"Weather App",
+        description:"Built with JavaScript and openweathermap API to retrieve and display real time weather data",
+        tags:["JavaScript","DOM", "RESTful API", "CSS"],
+        image:"/WeatherAppIcon.png",
+        link:"https://github.com/jcala16/WeatherApp"
     },
     {
-        title:"Project 2 Testing",
-        description:"A scalable framework for training machine learning models across distributed systems.",
-        tags:["Python","TensorFlow", "Kubernetes"],
-        image:"/placeholder.svg?height=200&width=300",
-        link:"#"
+        title:"Pass the Pigs",
+        description:"A simple jeopardy dice game where players roll a die to accumulate points, but risk losing their turn's score if they roll a 1. Uses session state to persist data between requests. Created using DOTNET MVC"
+        ,
+        tags:["DOTNET","C#", "State Management"],
+        image:"/PigsAppIcon.png",
+        link:"https://github.com/jcala16/PigsApp"
     },
     {
-        title:"Project 3 Testing",
-        description:"A scalable framework for training machine learning models across distributed systems.",
-        tags:["Python","TensorFlow", "Kubernetes"],
-        image:"/placeholder.svg?height=200&width=300",
-        link:"#"
-    },
-    {
-        title:"Project 4 Testing",
-        description:"A scalable framework for training machine learning models across distributed systems.",
-        tags:["Python","TensorFlow", "Kubernetes"],
-        image:"/placeholder.svg?height=200&width=300",
-        link:"#"
-    },
-    {
-        title:"Project 5 Testing",
-        description:"A scalable framework for training machine learning models across distributed systems.",
-        tags:["Python","TensorFlow", "Kubernetes"],
-        image:"/placeholder.svg?height=200&width=300",
-        link:"#"
-    },
-    {
-        title:"Project 6 Testing",
-        description:"A scalable framework for training machine learning models across distributed systems.",
-        tags:["Python","TensorFlow", "Kubernetes"],
-        image:"/placeholder.svg?height=200&width=300",
-        link:"#"
-    },
-    
+        title:"Portfolio Website",
+        description:"You're looking at it! Built using React + Next.js + Tailwind CSS",
+        tags:["React","Next.js", "Tailwind", "JavaScript", "TypeScript"],
+        image:"/YouAreHere.png",
+        link:"https://github.com/jcala16/PersonalWebsite"
+    }, 
 ];
 export default function Projects(){
     return (

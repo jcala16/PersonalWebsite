@@ -118,7 +118,7 @@ export default function Home() {
                 <div className="inline-block rounded-lg bg-background px-3 py-1 text-sm">Projects</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Featured Work</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  A selection of my recent research and development projects.
+                  A selection of my recent projects.
                 </p>
               </div>
             </div>
