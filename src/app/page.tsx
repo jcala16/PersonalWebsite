@@ -184,8 +184,8 @@ export default function Home() {
               </div>
               <div className="mt-12 flex justify-center">
                 <Button variant="outline" asChild>
-                  <Link href="#" download>
-                    <FileText className="mr-2 h-4 w-4" /> Download Full CV
+                  <Link href="/resume.docx" download="JacobCala-Resume.docx">
+                    <FileText className="mr-2 h-4 w-4" /> Download Resume
                   </Link>
                 </Button>
               </div>
