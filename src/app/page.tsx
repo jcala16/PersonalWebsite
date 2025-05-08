@@ -78,7 +78,7 @@ export default function Home() {
                   </Button>
                 </div>
               </div>
-              <Terminal className="hidden lg:flex" />
+              {/* <Terminal className="hidden lg:flex" /> */}
             </div>
           </div>
         </section>
@@ -127,7 +127,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <Button variant="outline" asChild>
-                <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/jcala16" target="_blank" rel="noopener noreferrer">
                   View All Projects on GitHub <ExternalLink className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -173,7 +173,7 @@ export default function Home() {
                 <div className="inline-block rounded-lg bg-background px-3 py-1 text-sm">Experience</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Professional Journey</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  My academic and industry experience.
+                  My workplace and acedemic experience.
                 </p>
               </div>
             </div>
@@ -199,7 +199,7 @@ export default function Home() {
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Contact</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Get in Touch</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Interested in collaboration or have questions about my work? Let's connect.
+                 Let's connect!
                 </p>
               </div>
             </div>
@@ -210,25 +210,25 @@ export default function Home() {
                 <div className="mt-4 grid gap-4">
                   <div className="flex items-center gap-2">
                     <Mail className="h-5 w-5 text-primary" />
-                    <a href="mailto:john.doe@example.com" className="hover:underline">
-                      john.doe@example.com
+                    <a href="mailto:jcala16@hotmail.com" className="hover:underline">
+                      jcala16@hotmail.com
                     </a>
                   </div>
                   <div className="flex items-center gap-2">
                     <Github className="h-5 w-5 text-primary" />
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                      github.com/johndoe
+                    <a href="https://github.com/jcala16" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                      github.com/jcala16
                     </a>
                   </div>
                   <div className="flex items-center gap-2">
                     <Linkedin className="h-5 w-5 text-primary" />
                     <a
-                      href="https://linkedin.com"
+                      href="https://linkedin.com/in/jacob-cala-583a27249/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:underline"
                     >
-                      linkedin.com/in/johndoe
+                     linkedin.com/in/jacob-cala-583a27249/
                     </a>
                   </div>
                 </div>

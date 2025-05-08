@@ -3,25 +3,25 @@ import { ExperienceCard } from "./experience-card";
 //edit experience here
 const experiences = [
     {
-        date: "2021 - Present",
-        position: "Senior Research Scientist",
-        company: "Google AI",
+        date: "2020 - 2022",
+        position: "Heavy Equipmemt Dispatcher",
+        company: "United States Marine Corps",
         description:
-            "Leading research in distributed machine learning systems and algorithm optimization. Developed novel approaches to training large language models across distributed computing clusters, resulting in 40% reduction in training time.",
+            "Coordinated 253 missions supporting 25 units by dispatching and tracking 52 heavy equipment assets. Maintained accurate records of hours, usage, and maintenance, and generated detailed reports for leadership. Ensured operational readiness by monitoring asset status, optimizing equipment allocation, and facilitating communication between units and command. Demonstrated strong organizational skills and attention to detail in a high-tempo environment",
     },
     {
-        date: "2018 - 2021",
-        position: "Software Engineer",
-        company: "Microsoft Research",
+        date: "2021 - 2022",
+        position: "Tool Room Operations Supervisor",
+        company: "United States Marine Corps",
         description:
-          "Worked on quantum computing simulation frameworks and distributed systems for large-scale data processing. Published 5 papers in top-tier conferences and contributed to open-source projects.",
+          "Oversaw quarterly inventories and inspections for 100+ heavy equipment tools valued at over $2 million, ensuring full accountability and operational readiness. Managed and tracked service requests for broken or missing tools, maintained detailed logs, and coordinated timely replacements. Developed an Excel-based process to monitor inventory completion and service request status, improving efficiency and accuracy in tool room operations.",
     },
     {
-        date: "2016 - 2018",
-        position: "Research Assistant",
-        company: "Stanford University",
+        date: "2023 - Present",
+        position: "Computer Science Student",
+        company: "Lewis University",
         description:
-          "Conducted research in algorithm design and computational complexity theory. Assisted in teaching undergraduate computer science courses and mentored junior researchers.",
+          "Currently pursuing a Bachelor's degree in Computer Science with a focus on software development, data structures, networking, and systems analysis. Engaged in hands on projects using modern languages and technology. Actively involved in collaborative coursework, coding challeninges, and personal projects to deepen practical skills and industry knowledge.",
     },
 ];
 

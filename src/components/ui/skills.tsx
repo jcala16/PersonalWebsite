@@ -1,26 +1,27 @@
-import {Code, Database, Server } from "lucide-react";
+import { Boxes, Code, Handshake } from "lucide-react";
 import {SkillCard } from "@/components/ui/skill-card";
 
 //edit the skill cards here
+//icons from https://lucide.dev/icons/
 export function SkillsList() {
     const skills = [
       {
-        icon: <Database className="h-5 w-5" />,
-        title: "Software Engineering",
+        icon: <Boxes className="h-5 w-5" />,
+        title: "Asset Management",
         description:
-          "Developing scalable, maintainable software solutions with a focus on performance and user experience.",
+          "Allocating, tracking, and maintaining high-value equipment, tools, and personel to ensure operational readiness and accountibility",
       },
       {
-        icon: <Database className="h-5 w-5" />,
-        title: "Data Science & ML",
+        icon: <Code className="h-5 w-5" />,
+        title: "Software Development",
         description:
-          "Applying statistical methods and machine learning algorithms to extract insights from complex datasets.",
+          "Building and improving software projects while learning modern programming languages and development tools.",
       },
       {
-        icon: <Server className="h-5 w-5" />,
-        title: "Distributed Systems",
+        icon: <Handshake className="h-5 w-5" />,
+        title: "Leadership",
         description:
-          "Designing and implementing fault-tolerant, scalable distributed systems and cloud architectures.",
+          "Mentoring and guiding marines whilst maintaining high standards of performance and communication to accomplish critical missions.",
       },
     ];
   
