@@ -12,6 +12,7 @@ import { ProgrammingLanguages } from "@/components/ui/programming-languages"
 import { FrameworksLibraries } from "@/components/ui/frameworks-libraries"
 import { Tools } from "@/components/ui/tools"
 import { Experience } from "@/components/ui/experience"
+import ContactForm from "@/components/ui/contact-card"
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -103,7 +104,7 @@ export default function Home() {
                   alt="Profile"
                   className="aspect-square overflow-hidden rounded-xl object-cover object-center border shadow-xl"
                   height="400"
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/USMC_Photo.jpg"
                   width="400"
                 />
               </div>
@@ -233,69 +234,14 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <Card>
-                <CardContent className="p-6">
-                  <form className="grid gap-4">
-                    <div className="grid gap-2">
-                      <label
-                        htmlFor="name"
-                        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                      >
-                        Name
-                      </label>
-                      <input
-                        id="name"
-                        className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                        placeholder="Your name"
-                      />
-                    </div>
-                    <div className="grid gap-2">
-                      <label
-                        htmlFor="email"
-                        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                      >
-                        Email
-                      </label>
-                      <input
-                        id="email"
-                        type="email"
-                        className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                        placeholder="Your email"
-                      />
-                    </div>
-                    <div className="grid gap-2">
-                      <label
-                        htmlFor="message"
-                        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                      >
-                        Message
-                      </label>
-                      <textarea
-                        id="message"
-                        className="flex min-h-[120px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                        placeholder="Your message"
-                      />
-                    </div>
-                    <Button type="submit" className="w-full">
-                      Send Message
-                    </Button>
-                  </form>
-                </CardContent>
-              </Card>
+                <ContactForm />
             </div>
           </div>
         </section>
       </main>
       <footer className="w-full border-t py-6 md:py-0">
         <div className="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row">
-          {/* <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Jacob Cala. All rights reserved.</p> */}
           <div className="flex gap-4">
-            {/* <Link href="#" className="text-sm text-muted-foreground hover:underline underline-offset-4">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="text-sm text-muted-foreground hover:underline underline-offset-4">
-              Terms of Service
-            </Link> */}
           </div>
         </div>
       </footer>
