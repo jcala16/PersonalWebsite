@@ -6,8 +6,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 export default function ContactForm() {
-  const [state, handleSubmit] = useForm("mpwdrglg"); //my hashid from formspree
-
+  const [state, handleSubmit] = useForm("mpwdrglg"); //NOTE: This is a hashid, not a secret api key. 
+                                                     //Thus, its meant to be embedded in public html so users can submit the form
   if (state.succeeded) {
     return (
       <Card>
