@@ -9,7 +9,7 @@ export function SkillsList() {
         icon: <Boxes className="h-5 w-5" />,
         title: "Asset Management",
         description:
-          "Allocating, tracking, and maintaining high-value equipment, tools, and personel to ensure operational readiness and accountibility",
+          "Allocating, tracking, and maintaining high-value equipment, tools, and personnel to ensure operational readiness and accountibility.",
       },
       {
         icon: <Code className="h-5 w-5" />,

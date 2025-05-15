@@ -23,6 +23,7 @@ import { Tools } from "@/components/ui/tools";
 import { Experience } from "@/components/ui/experience";
 import ContactForm from "@/components/ui/contact-card";
 import { Navbar } from "@/components/ui/navbar";
+import { Operating_Systems } from "@/components/ui/operating-systems";
 export default function Home() {
   return (
     <div className="container mx-auto px-4 md:px-6 ">
@@ -194,6 +195,7 @@ export default function Home() {
                     <div>
                       <Tools />
                     </div>
+                    <Operating_Systems />
                   </div>
                 </CardContent>
               </Card>

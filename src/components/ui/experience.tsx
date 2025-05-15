@@ -7,7 +7,7 @@ const experiences = [
         position: "Heavy Equipmemt Dispatcher",
         company: "United States Marine Corps",
         description:
-            "Coordinated 253 missions supporting 25 units by dispatching and tracking 52 heavy equipment assets. Maintained accurate records of hours, usage, and maintenance, and generated detailed reports for leadership. Ensured operational readiness by monitoring asset status, optimizing equipment allocation, and facilitating communication between units and command. Demonstrated strong organizational skills and attention to detail in a high-tempo environment",
+            "Coordinated 253 missions supporting 25 units by dispatching and tracking 52 heavy equipment assets. Maintained accurate records of hours, usage, and maintenance, and generated detailed reports for leadership. Ensured operational readiness by monitoring asset status, optimizing equipment allocation, and facilitating communication between units and command. Demonstrated strong organizational skills and attention to detail in a high-tempo environment.",
     },
     {
         date: "2021 - 2022",
@@ -21,7 +21,7 @@ const experiences = [
         position: "Computer Science Student",
         company: "Lewis University",
         description:
-          "Currently pursuing a Bachelor's degree in Computer Science with a focus on software development, data structures, networking, and systems analysis. Engaged in hands on projects using modern languages and technology. Actively involved in collaborative coursework, coding challeninges, and personal projects to deepen practical skills and industry knowledge.",
+          "Currently pursuing a Bachelor's degree in Computer Science with a focus on software development, data structures, networking, and systems analysis. Engaged in hands-on projects using modern languages and technology. Actively involved in collaborative coursework, coding challenges, and personal projects to deepen practical skills and industry knowledge.",
     },
 ];
 
